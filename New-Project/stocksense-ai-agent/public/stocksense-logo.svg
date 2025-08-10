@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="45" fill="#3B82F6" opacity="0.1"/>
+
+  <!-- Brain shape with financial chart integration -->
+  <g transform="translate(25, 20)">
+    <!-- Main brain outline -->
+    <path d="M15 10 Q5 5 2 15 Q0 25 5 30 Q3 40 15 45 Q25 50 35 45 Q45 40 48 30 Q50 25 45 15 Q42 5 30 8 Q25 5 15 10 Z"
+          fill="#3B82F6" opacity="0.8"/>
+
+    <!-- Brain folds/sections -->
+    <path d="M12 15 Q20 12 28 18 Q35 22 40 28"
+          stroke="#1E40AF" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M8 25 Q15 22 25 25 Q32 28 38 32"
+          stroke="#1E40AF" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+    <!-- Financial chart lines integrated into brain -->
+    <polyline points="8,35 12,30 16,32 20,28 24,30 28,25 32,27 36,22 40,25"
+              stroke="#10B981" stroke-width="2.5" fill="none"/>
+
+    <!-- Data points -->
+    <circle cx="12" cy="30" r="1.5" fill="#10B981"/>
+    <circle cx="20" cy="28" r="1.5" fill="#10B981"/>
+    <circle cx="28" cy="25" r="1.5" fill="#10B981"/>
+    <circle cx="36" cy="22" r="1.5" fill="#10B981"/>
+
+    <!-- AI neural connections -->
+    <line x1="15" y1="20" x2="25" y2="25" stroke="#60A5FA" stroke-width="1" opacity="0.5"/>
+    <line x1="20" y1="15" x2="30" y2="30" stroke="#60A5FA" stroke-width="1" opacity="0.5"/>
+    <line x1="10" y1="30" x2="35" y2="20" stroke="#60A5FA" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- Dollar sign integration -->
+  <g transform="translate(65, 55)">
+    <circle cx="10" cy="10" r="12" fill="#059669" opacity="0.2"/>
+    <path d="M10 2 L10 18 M6 6 Q10 4 14 6 Q14 10 10 10 Q6 10 6 14 Q10 16 14 14"
+          stroke="#059669" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Subtle glow effect -->
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Apply glow to main elements -->
+  <style>
+    .glow { filter: url(#glow); }
+  </style>
+</svg>
