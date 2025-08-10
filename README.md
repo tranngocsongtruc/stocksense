@@ -1,4 +1,3 @@
-
 # StockSense - AI-Powered Accessible Stock Analysis Platform
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://same-u2jers5nya2-latest.netlify.app)
@@ -18,6 +17,19 @@ StockSense is an innovative stock analysis platform that combines artificial int
 - 🧘 **ADHD-Friendly Design** - Focus timers, customizable layouts, distraction reduction
 - 🎨 **Professional UI** - Multiple themes with responsive design
 - 🏭 **Industry Filtering** - 10-sector color-coded filtering system
+
+### **Quick demo**  
+- Screenshot #1
+<img width="467" height="661" alt="Screenshot 2025-08-10 at 3 28 59 PM" src="https://github.com/user-attachments/assets/9cdb65ac-50c0-4fae-9e04-49c06295ddc2" />
+
+- Screenshot #2
+<img width="1470" height="920" alt="Screenshot 2025-08-10 at 3 23 53 PM" src="https://github.com/user-attachments/assets/e54ef3dc-164a-40c5-ae06-9fb432a7ab91" />
+
+- Screenshot #3
+<img width="469" height="658" alt="Screenshot 2025-08-10 at 3 29 18 PM" src="https://github.com/user-attachments/assets/4156262f-f213-4961-b141-9f2df156343c" />
+
+- Screenshot #4
+<img width="1470" height="921" alt="Screenshot 2025-08-10 at 3 27 11 PM" src="https://github.com/user-attachments/assets/1ed78c30-221c-44a8-8089-729f86935216" />
 
 ---
 
