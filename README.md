@@ -186,4 +186,4 @@ Agent States
 Note: This is a basic rule-based AI system built during a hackathon. Future development will incorporate more sophisticated machine learning capabilities.
 
 Project Link: https://github.com/tranngocsongtruc/stocksense
-Live Demo: (still deciding on domain and host)
+Live Demo: https://stocksense-alpha.netlify.app/
